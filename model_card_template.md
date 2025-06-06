@@ -22,6 +22,14 @@ The test set contains 20% of the original dataset. It was processed using one ho
 
 The model used precision, recall, and F1 score for its performance metrics. Overall performance consisted of a precision of 0.7419, recall of 0.6384, and an F1 score of 0.6863. 
 
+Performance was also evaluated on demographic and categorical slices to assess fairness and reliability. Some of the highest-performing slices by F1-score included:
+
+    education = Prof-school (F1 = 0.8852)
+
+    education = Doctorate (F1 = 0.8793)
+
+    native-country = India (F1 = 0.8750)
+
 ## Ethical Considerations
 
 The model reflects biases present in the original dataset, which may include certain economic biases. Categorical features such as sex and race could introduce a difference in treatment between predictions. 
