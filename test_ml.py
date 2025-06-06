@@ -1,5 +1,9 @@
 import pytest
+
 # TODO: add necessary import
+import numpy as np
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier
 
 # TODO: implement the first test. Change the function name and input as needed
 def test_one():
