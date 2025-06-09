@@ -24,11 +24,11 @@ The model used precision, recall, and F1 score for its performance metrics. Over
 
 Performance was also evaluated on demographic and categorical slices to assess fairness and reliability. Some of the highest-performing slices by F1-score included:
 
-    education = Prof-school (F1 = 0.8852)
+education = Prof-school (F1 = 0.8852)
 
-    education = Doctorate (F1 = 0.8793)
+education = Doctorate (F1 = 0.8793)
 
-    native-country = India (F1 = 0.8750)
+native-country = India (F1 = 0.8750)
 
 ## Ethical Considerations
 
